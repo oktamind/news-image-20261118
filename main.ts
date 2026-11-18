@@ -2,6 +2,10 @@
 // The image is baked into this repo as entry.png (1024x1024 JPEG bytes,
 // 253,266 bytes, under the 1 MiB cap). The program just copies it to the
 // grader's output path, so both runs write identical bytes with no network.
+// Note: the file keeps the name entry.png although its bytes are JPEG —
+// the rules tell PNG apart from JPEG by the first bytes, not the name,
+// and a JPEG at this size is far smaller than the PNG the generator
+// produced (2.0 MB), which would have blown the 1 MiB cap.
 //
 // What the front page shows, researched from 18 Nov 2026 reporting:
 //   1. Trump in Manila — Quad leaders agree their first joint military
