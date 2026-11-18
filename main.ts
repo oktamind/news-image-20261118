@@ -15,7 +15,9 @@
 // as written - an AI-generated dense page garbles small text, this one
 // cannot. The map itself is a clean AI-drawn silhouette (verified: all
 // continents in the right shape and place, no text on it); the numbered
-// markers are placed from longitude/latitude by the script.
+// markers are placed from longitude/latitude by the script, calibrated
+// on the silhouette's navy bounding box and checked against the rendered
+// page - every marker sits on the land or sea it names.
 //
 // What the front page shows, researched from 18 Nov 2026 reporting:
 //   Leads: Trump in Manila (Quad's first joint drill; Xi-Trump-Putin
