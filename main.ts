@@ -9,7 +9,9 @@
 // front page with 26 stories: 3 leads plus 23 in brief, across 6 regions.
 // The page is drawn programmatically (PIL + DejaVu, script kept in the
 // build notes) so every headline is spelled exactly as written - an
-// AI-generated dense page garbles small text, this one cannot.
+// AI-generated dense page garbles small text, this one cannot. Unlike
+// v1, entry.png is a true PNG now: crisp text at 137,530 bytes, far
+// under the cap, with no JPEG artefacts around the small print.
 //
 // What the front page shows, researched from 18 Nov 2026 reporting:
 //   Leads: Trump in Manila (Quad's first joint drill; Xi-Trump-Putin
